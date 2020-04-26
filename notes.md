@@ -8,3 +8,5 @@ users, and user groups are stored." - [*](https://en.wikipedia.org/wiki/Database
 
 Base table - "A base table is a physical structure that contains stored records. This structure can have any physical 
 format as long as it can be presented to the user as a collection of rows and columns." - [*](https://kbs.custhelp.com/app/answers/detail/a_id/289/~/what-is-a-base-table%3F)
+
+SYSCAT.TABLES catalog view - [*](https://www.ibm.com/support/knowledgecenter/SSCJDQ/com.ibm.swg.im.dashdb.sql.ref.doc/doc/r0001063.html)
