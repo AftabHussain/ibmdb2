@@ -10,3 +10,16 @@ Base table - "A base table is a physical structure that contains stored records.
 format as long as it can be presented to the user as a collection of rows and columns." - [*](https://kbs.custhelp.com/app/answers/detail/a_id/289/~/what-is-a-base-table%3F)
 
 SYSCAT.TABLES catalog view - [*](https://www.ibm.com/support/knowledgecenter/SSCJDQ/com.ibm.swg.im.dashdb.sql.ref.doc/doc/r0001063.html)
+
+________
+
+Connecting to a IBM DB2 Database on the IBM Cloud using connection strings via sql 
+in a python interpreter (This setup was done from the JupyterLab environment, in the IBM Skills Network Labs Platform):
+```python
+#%sql ibm_db_sa://my-username:my-password@my-hostname:my-port/my-db-name
+%sql ibm_db_sa://xxxxxx:xxxxx@dashdb-txn-sbox-yp-dal09-03.services.dal.bluemix.net:50000/BLUDB
+```
+
+Here's how you can obtain the connection string - From your IBM Cloud Dashboard, go to your IBM Db2 Service. Then go to 
+Service Credentials and then expand a service credential view. You should see several entries. The connection string 
+is in the entry `uri:`.
