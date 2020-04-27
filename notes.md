@@ -14,7 +14,7 @@ SYSCAT.TABLES catalog view - [*](https://www.ibm.com/support/knowledgecenter/SSC
 ________
 
 Connecting to a IBM DB2 Database on the IBM Cloud using connection strings via sql 
-in a python interpreter (This setup was done from the JupyterLab environment, in the IBM Skills Network Labs Platform):
+in a python interpreter (This setup was done from the JupyterLab environment, in the IBM Skills Network Labs platform):
 ```python
 #%sql ibm_db_sa://my-username:my-password@my-hostname:my-port/my-db-name
 %sql ibm_db_sa://xxxxxx:xxxxx@dashdb-txn-sbox-yp-dal09-03.services.dal.bluemix.net:50000/BLUDB
@@ -23,3 +23,9 @@ in a python interpreter (This setup was done from the JupyterLab environment, in
 Here's how you can obtain the connection string - From your IBM Cloud Dashboard, go to your IBM Db2 Service. Then go to 
 Service Credentials and then expand a service credential view. You should see several entries. The connection string 
 is in the entry `uri:`.
+
+________
+
+Playing with attributes of SYSCAT.TABLES and SYSCAT.COLUMNS - [*](https://gist.github.com/AftabHussain/74bb3aea1dd59c966b000fc56e717841) (*The initial part before the problems begin.*) 
+
+
